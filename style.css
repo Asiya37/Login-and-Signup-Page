@@ -1,0 +1,112 @@
+body {
+ 
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+
+  background-position: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  backdrop-filter: blur(10px);
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 4px 15px white;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: white;
+  font-family: "Outfit", serif;
+  font-weight: 900;
+  font-size: 30px;
+}
+form {
+  display: none;
+}
+form.active {
+  display: block;
+}
+.Form-Data {
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+input::placeholder {
+  color: white;
+  font-family: "Outfit", serif;
+  font-weight: 300;
+}
+.Form-Data input {
+  width: 70%;
+  padding: 12px 10px 12px 17px;
+  background-color: transparent;
+  color: white;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  font-size: 14px;
+}
+.btn {
+  width: 80%;
+  padding: 10px;
+  border: none;
+  background: white;
+  color: black;
+  font-family: "Outfit", serif;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background 0.3s;
+  margin-top: 5px;
+}
+.line {
+  margin-top: 40px;
+}
+.cb {
+  float: left;
+  margin-left: 50px;
+  font-size: 14px;
+}
+
+label {
+  color: white;
+  font-family: "Outfit", serif;
+  font-weight: 500;
+}
+.forgot {
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: -30px;
+  font-family: "Outfit", serif;
+  font-weight: 500;
+}
+.forgot:hover {
+  text-decoration: underline;
+  color: #2e0442;
+}
+.btn:hover {
+  background: #ad6eca;
+}
+.link {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: white;
+  text-decoration: none;
+  font-family: "Outfit", serif;
+  font-weight: 300;
+}
+.link:hover {
+  text-decoration: underline;
+  color: #2e0442;
+}

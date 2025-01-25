@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <form id="loginForm" class="active">
+            <h2>Login</h2>
+            <div class="Form-Data">
+
+                <input type="email" id="loginEmail" placeholder="Enter your email" required>
+            </div>
+            <div class="Form-Data">
+
+                <input type="password" id="loginPassword" placeholder="Enter your password" required>
+            </div>
+            <div class="line">
+                <div class="cb">
+                    <input type="checkbox" name="" id="checkbox"><label for="checkbox">Remember Me</label>
+                </div>
+                <a href="#" class="forgot">Forgot Password</a>
+            </div>
+
+            <button type="submit" class="btn">Log in</button>
+            <a href="#" class="link" onclick="showSignup()">Don't have an account? Sign up here</a>
+        </form>
+
+
+        <form id="signupForm">
+            <h2>Signup</h2>
+            <div class="Form-Data">
+
+                <input type="text" id="signupName" placeholder="Enter your full name" required>
+            </div>
+            <div class="Form-Data">
+
+                <input type="email" id="signupEmail" placeholder="Enter your email" required>
+            </div>
+            <div class="Form-Data">
+
+                <input type="password" id="signupPassword" placeholder="Create a password" required>
+            </div>
+            <input style="margin-left:-70px;" type="checkbox" name="" id="checkbox"><label style="font-size: 14px;"
+                for="checkbox">I agree with terms and conditions</label>
+            <button type="submit" class="btn">Sign Up</button>
+            <a href="#" class="link" onclick="showLogin()">Already have an account? Login here</a>
+        </form>
+        <script src="script.js"></script>
+    </div>
+</body>
+
+</html>
